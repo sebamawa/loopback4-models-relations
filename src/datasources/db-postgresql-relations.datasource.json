@@ -1,0 +1,10 @@
+{
+  "name": "db_postgresql_relations",
+  "connector": "postgresql",
+  "url": "",
+  "host": "localhost",
+  "port": 5432,
+  "user": "postgres",
+  "password": "admin",
+  "database": "db_relations_models_lb4"
+}
