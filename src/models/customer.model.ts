@@ -15,6 +15,18 @@ export class Customer extends Entity {
   })
   name: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  telephone: string;
+
+  @property({
+    type: 'string',
+    required: false,
+  })
+  address: string;
+
   @hasMany(() => Order, { keyTo: 'customerId' })
   orders?: Order[];
 
